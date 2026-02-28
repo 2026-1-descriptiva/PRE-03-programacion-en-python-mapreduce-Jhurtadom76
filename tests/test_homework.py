@@ -41,6 +41,7 @@ def test_01():
             key, value = line.strip().split("\t")
             result[key] = int(value)
 
+
     assert result["analytics"] == 5000
     assert result["business"] == 7000
     assert result["by"] == 3000
